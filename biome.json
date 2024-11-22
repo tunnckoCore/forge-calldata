@@ -1,4 +1,5 @@
 {
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "extends": ["ultracite"],
   "files": {
     "ignore": [
@@ -7,5 +8,41 @@
       "packages/design-system/hooks/**",
       "apps/docs/**/*.json"
     ]
+  },
+  "linter": {
+    "rules": {
+      "nursery": {
+        "noNestedTernary": "off"
+      },
+      "performance": {
+        "useTopLevelRegex": "off",
+        "noBarrelFile": "off",
+        "noReExportAll": "off"
+      },
+      "complexity": {
+        "useOptionalChain": "off",
+        "noExcessiveCognitiveComplexity": {
+          "level": "warn",
+          "options": {
+            "maxAllowedComplexity": 20
+          }
+        }
+      },
+      "suspicious": {
+        "noExplicitAny": "off",
+        "noEmptyBlockStatements": "off",
+        "noConsole": "off",
+        "noConsoleLog": "off"
+      },
+      "style": {
+        "noUnusedTemplateLiteral": "off",
+        "useNamingConvention": {
+          "level": "warn",
+          "options": {
+            "strictCase": false
+          }
+        }
+      }
+    }
   }
 }

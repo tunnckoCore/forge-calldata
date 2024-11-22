@@ -16,6 +16,9 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2022",
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   }
 }
