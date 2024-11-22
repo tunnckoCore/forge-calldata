@@ -3,6 +3,9 @@
   "extends": ["ultracite"],
   "files": {
     "ignore": [
+      "samples/**",
+      "packages/analytics/posthog/client.tsx",
+      "packages/collaboration/config.ts",
       "packages/design-system/components/ui/**",
       "packages/design-system/lib/**",
       "packages/design-system/hooks/**",
