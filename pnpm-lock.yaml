@@ -389,8 +389,8 @@ importers:
         specifier: ^6.3.4
         version: 6.3.4(next@15.0.3(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@clerk/themes':
-        specifier: ^2.1.45
-        version: 2.1.45
+        specifier: ^2.1.46
+        version: 2.1.46
       '@repo/tailwind-config':
         specifier: workspace:*
         version: link:../tailwind-config
@@ -1347,12 +1347,16 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/themes@2.1.45':
-    resolution: {integrity: sha512-o8hb8ttQVdoTuAEpAGWDwbCzTvcJJNTAWI8wbJULvvy6FB0WhU62o0t0DX0VKGXe+nRs+qDmQ3bz1d5lahr2Xw==}
+  '@clerk/themes@2.1.46':
+    resolution: {integrity: sha512-P+4t5hLANZDEKFQhyUijKyQGFO6TOnidD3x4avnL84Pi1VkxYVUL+PeWH2oDKzbGHcNcsZ80x8plpz3vVN0GDQ==}
     engines: {node: '>=18.17.0'}
 
   '@clerk/types@4.34.0':
     resolution: {integrity: sha512-4ghDvf80/sFlpx5HnmIl3vW7SOqEaTDwyKAw64H/E2ahgGUMk+qLVpxnBumTpowq+bGjfMVwbneDQOhtmYidoQ==}
+    engines: {node: '>=18.17.0'}
+
+  '@clerk/types@4.34.1':
+    resolution: {integrity: sha512-FaeHmmoZkIrPrU6AOJ8FUke+LM8ZH072w0Aog6kbQGL3bCBZgUGFy7faTzozxbd+TWTbzVDoTAbDeZCq21UOFg==}
     engines: {node: '>=18.17.0'}
 
   '@colors/colors@1.5.0':
@@ -8530,12 +8534,16 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@clerk/themes@2.1.45':
+  '@clerk/themes@2.1.46':
     dependencies:
-      '@clerk/types': 4.34.0
+      '@clerk/types': 4.34.1
       tslib: 2.4.1
 
   '@clerk/types@4.34.0':
+    dependencies:
+      csstype: 3.1.1
+
+  '@clerk/types@4.34.1':
     dependencies:
       csstype: 3.1.1
 
