@@ -6,7 +6,7 @@
   "devDependencies": {
     "@repo/env": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "next": "15.0.3"
+    "next": "15.1.6"
   },
   "dependencies": {
     "@logtail/next": "^0.1.6",
